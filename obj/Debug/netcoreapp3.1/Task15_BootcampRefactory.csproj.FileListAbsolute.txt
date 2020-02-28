@@ -36,3 +36,5 @@
 /Users/user/Projects/Task15_BootcampRefactory/obj/Debug/netcoreapp3.1/Task15_BootcampRefactory.dll
 /Users/user/Projects/Task15_BootcampRefactory/obj/Debug/netcoreapp3.1/Task15_BootcampRefactory.pdb
 /Users/user/Projects/Task15_BootcampRefactory/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/user/Projects/Task15_BootcampRefactory/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/user/Projects/Task15_BootcampRefactory/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

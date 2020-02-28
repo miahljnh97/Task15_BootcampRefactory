@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Task15_BootcampRefactory.Models;
+using Newtonsoft.Json;
+using Microsoft.AspNetCore.JsonPatch;
 
 namespace Task15_BootcampRefactory.Controllers
 {
@@ -54,19 +56,11 @@ namespace Task15_BootcampRefactory.Controllers
             return Ok(po);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Put(int id, Posts postput)
+        [HttpPatch("{id}")]
+        public IActionResult Patch([FromBody]JsonPatchDocument<Posts> pat, int id)
         {
             var po = _context.post.First(i => i.Id == id);
-
-            po.Title = postput.Title;
-            po.Content = postput.Content;
-            po.Tags = postput.Tags;
-            po.Status = postput.Status;
-            po.Create_time = postput.Create_time;
-            po.Update_time = DateTime.Now;
-
-            _context.post.Update(po);
+            pat.ApplyTo(po);
             _context.SaveChanges();
             return Ok(po);
         }
