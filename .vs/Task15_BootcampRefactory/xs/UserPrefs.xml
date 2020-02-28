@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{583C42F8-3067-4FCF-A1C2-A863588F4346}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PostContext.cs">
+    <Files>
+      <File FileName="Startup.cs" Line="29" Column="39" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="88" Column="26" />
+      <File FileName="PostContext.cs" Line="14" Column="1" />
+      <File FileName="Models/Post.cs" Line="15" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Task15_BootcampRefactory" expanded="True">
+            <Node name="Task15_BootcampRefactory" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Post.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Task15__BootcampRefactory PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
